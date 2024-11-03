@@ -1,62 +1,6 @@
 [
     {
-      "product_id": 12345,
-      "product_title": "Smartphone Galaxy S21",
-      "product_image": "https://i.ibb.co.com/LQqYX6Z/samsung-galaxy-s21.jpg",
-      "category": "Smartphone",
-      "price": 799.99,
-      "description": "The Galaxy S21 comes with a 6.2-inch display, triple-lens camera, and a powerful Exynos processor.",
-      "Specification": [
-        "Display: 6.2 inches, 2400x1080 pixels",
-        "Processor: Exynos 2100",
-        "RAM: 8GB",
-        "Storage: 128GB",
-        "Battery: 4000mAh",
-        "Camera: 64MP + 12MP + 12MP rear, 10MP front",
-        "OS: Android 11"
-      ],
-      "availability": true,
-      "rating": 4.5
-    },
-    {
-      "product_id": 98765,
-      "product_title": "Laptop XPS 13",
-      "product_image": "https://example.com/images/xps_13.jpg",
-      "category": "Laptop",
-      "price": 1299.99,
-      "description": "Dell XPS 13 features a stunning 13.4-inch InfinityEdge display and Intel's latest 11th-gen processor.",
-      "Specification": [
-        "Display: 13.4 inches, 1920x1200 pixels",
-        "Processor: Intel Core i7-1185G7",
-        "RAM: 16GB",
-        "Storage: 512GB SSD",
-        "Battery: 52Wh",
-        "Graphics: Intel Iris Xe Graphics",
-        "OS: Windows 10 Pro"
-      ],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "product_id": 45678,
-      "product_title": "Wireless Earbuds Pro",
-      "product_image": "https://example.com/images/earbuds_pro.jpg",
-      "category": "TWS",
-      "price": 199.99,
-      "description": "Wireless Earbuds Pro with active noise cancellation, rich bass, and up to 24 hours of battery life.",
-      "Specification": [
-        "Battery Life: 24 hours with charging case",
-        "Water Resistance: IPX4",
-        "Bluetooth Version: 5.2",
-        "Charging Type: USB-C",
-        "Microphones: Dual-microphone noise reduction",
-        "Additional Features: Active Noise Cancellation, Transparency Mode"
-      ],
-      "availability": false,
-      "rating": 4.2
-    },
-    {
-      "product_id": 67890,
+      "product_id": 101,
       "product_title": "iPhone 13 Pro",
       "product_image": "https://example.com/images/iphone_13_pro.jpg",
       "category": "Smartphone",
@@ -75,7 +19,121 @@
       "rating": 4.8
     },
     {
-      "product_id": 54321,
+      "product_id": 102,
+      "product_title": "Galaxy S21",
+      "product_image": "https://example.com/images/galaxy_s21.jpg",
+      "category": "Smartphone",
+      "price": 799.99,
+      "description": "Samsung Galaxy S21 with a 6.2-inch display, triple-lens camera, and a powerful Exynos processor.",
+      "Specification": [
+        "Display: 6.2 inches, 2400x1080 pixels",
+        "Processor: Exynos 2100",
+        "RAM: 8GB",
+        "Storage: 128GB",
+        "Battery: 4000mAh",
+        "Camera: 64MP + 12MP + 12MP rear, 10MP front",
+        "OS: Android 11"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 103,
+      "product_title": "Google Pixel 6",
+      "product_image": "https://example.com/images/pixel_6.jpg",
+      "category": "Smartphone",
+      "price": 599.99,
+      "description": "Google Pixel 6 with 6.4-inch OLED display, Google Tensor processor, and dual-lens camera system.",
+      "Specification": [
+        "Display: 6.4 inches, 2400x1080 pixels",
+        "Processor: Google Tensor",
+        "RAM: 8GB",
+        "Storage: 128GB",
+        "Battery: 4614mAh",
+        "Camera: 50MP + 12MP rear, 8MP front",
+        "OS: Android 12"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 104,
+      "product_title": "OnePlus 9",
+      "product_image": "https://example.com/images/oneplus_9.jpg",
+      "category": "Smartphone",
+      "price": 729.99,
+      "description": "OnePlus 9 with a 6.55-inch AMOLED display, Snapdragon 888 processor, and Hasselblad triple-lens camera.",
+      "Specification": [
+        "Display: 6.55 inches, 2400x1080 pixels",
+        "Processor: Snapdragon 888",
+        "RAM: 8GB",
+        "Storage: 128GB",
+        "Battery: 4500mAh",
+        "Camera: 48MP + 50MP + 2MP rear, 16MP front",
+        "OS: Android 11"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 105,
+      "product_title": "Xiaomi Mi 11",
+      "product_image": "https://example.com/images/mi_11.jpg",
+      "category": "Smartphone",
+      "price": 749.99,
+      "description": "Xiaomi Mi 11 with a 6.81-inch AMOLED display, Snapdragon 888 processor, and advanced camera features.",
+      "Specification": [
+        "Display: 6.81 inches, 3200x1440 pixels",
+        "Processor: Snapdragon 888",
+        "RAM: 8GB",
+        "Storage: 256GB",
+        "Battery: 4600mAh",
+        "Camera: 108MP + 13MP + 5MP rear, 20MP front",
+        "OS: Android 11"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 106,
+      "product_title": "Samsung Galaxy A52",
+      "product_image": "https://example.com/images/galaxy_a52.jpg",
+      "category": "Smartphone",
+      "price": 399.99,
+      "description": "Samsung Galaxy A52 with a 6.5-inch Super AMOLED display, Snapdragon 720G, and quad-camera setup.",
+      "Specification": [
+        "Display: 6.5 inches, 2400x1080 pixels",
+        "Processor: Snapdragon 720G",
+        "RAM: 6GB",
+        "Storage: 128GB",
+        "Battery: 4500mAh",
+        "Camera: 64MP + 12MP + 5MP + 5MP rear, 32MP front",
+        "OS: Android 11"
+      ],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 107,
+      "product_title": "Dell XPS 13",
+      "product_image": "https://example.com/images/xps_13.jpg",
+      "category": "Laptop",
+      "price": 1299.99,
+      "description": "Dell XPS 13 with a stunning 13.4-inch InfinityEdge display and Intel's latest 11th-gen processor.",
+      "Specification": [
+        "Display: 13.4 inches, 1920x1200 pixels",
+        "Processor: Intel Core i7-1185G7",
+        "RAM: 16GB",
+        "Storage: 512GB SSD",
+        "Battery: 52Wh",
+        "Graphics: Intel Iris Xe Graphics",
+        "OS: Windows 10 Pro"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 108,
       "product_title": "MacBook Air M1",
       "product_image": "https://example.com/images/macbook_air_m1.jpg",
       "category": "Laptop",
@@ -94,97 +152,40 @@
       "rating": 4.9
     },
     {
-      "product_id": 78901,
-      "product_title": "AirPods Pro",
-      "product_image": "https://example.com/images/airpods_pro.jpg",
-      "category": "TWS",
-      "price": 249.99,
-      "description": "Apple AirPods Pro with active noise cancellation, spatial audio, and a compact wireless charging case.",
+      "product_id": 109,
+      "product_title": "Oculus Quest 2",
+      "product_image": "https://example.com/images/oculus_quest_2.jpg",
+      "category": "VR Headset",
+      "price": 299.99,
+      "description": "Oculus Quest 2 VR headset with high-resolution display, 6GB RAM, and wireless gameplay.",
       "Specification": [
-        "Battery Life: 24 hours with charging case",
-        "Water Resistance: IPX4",
-        "Bluetooth Version: 5.0",
-        "Charging Type: Lightning",
-        "Microphones: Dual beamforming microphones",
-        "Additional Features: Active Noise Cancellation, Transparency Mode"
+        "Display: 1832x1920 pixels per eye",
+        "Processor: Qualcomm Snapdragon XR2",
+        "RAM: 6GB",
+        "Storage: 128GB",
+        "Battery: 2-3 hours",
+        "Connectivity: Wi-Fi, Bluetooth",
+        "Additional Features: Wireless gameplay, Oculus Store access"
       ],
       "availability": true,
       "rating": 4.6
     },
     {
-      "product_id": 11223,
-      "product_title": "OnePlus 9",
-      "product_image": "https://example.com/images/oneplus_9.jpg",
-      "category": "Smartphone",
-      "price": 729.99,
-      "description": "OnePlus 9 features a 6.55-inch AMOLED display, Snapdragon 888 processor, and Hasselblad triple-lens camera.",
+      "product_id": 110,
+      "product_title": "HTC Vive Pro 2",
+      "product_image": "https://example.com/images/vive_pro_2.jpg",
+      "category": "VR Headset",
+      "price": 749.99,
+      "description": "HTC Vive Pro 2 VR headset with 5K resolution, 120-degree field of view, and immersive audio.",
       "Specification": [
-        "Display: 6.55 inches, 2400x1080 pixels",
-        "Processor: Snapdragon 888",
-        "RAM: 8GB",
-        "Storage: 128GB",
-        "Battery: 4500mAh",
-        "Camera: 48MP + 50MP + 2MP rear, 16MP front",
-        "OS: Android 11"
+        "Display: 2448x2448 pixels per eye",
+        "Field of View: 120 degrees",
+        "Refresh Rate: 120Hz",
+        "Connectivity: HDMI, USB",
+        "Audio: Hi-Res certified headphones",
+        "Additional Features: SteamVR compatibility, adjustable head strap"
       ],
       "availability": true,
-      "rating": 4.4
-    },
-    {
-      "product_id": 65432,
-      "product_title": "Surface Laptop 4",
-      "product_image": "https://example.com/images/surface_laptop_4.jpg",
-      "category": "Laptop",
-      "price": 999.99,
-      "description": "Microsoft Surface Laptop 4 with a 13.5-inch PixelSense display, AMD Ryzen processor, and premium build quality.",
-      "Specification": [
-        "Display: 13.5 inches, 2256x1504 pixels",
-        "Processor: AMD Ryzen 5 4680U",
-        "RAM: 8GB",
-        "Storage: 256GB SSD",
-        "Battery: Up to 19 hours",
-        "Graphics: AMD Radeon Graphics",
-        "OS: Windows 10"
-      ],
-      "availability": false,
-      "rating": 4.5
-    },
-    {
-      "product_id": 23456,
-      "product_title": "Sony WF-1000XM4",
-      "product_image": "https://example.com/images/sony_wf_1000xm4.jpg",
-      "category": "TWS",
-      "price": 279.99,
-      "description": "Sony WF-1000XM4 true wireless earbuds with industry-leading noise cancellation and exceptional sound quality.",
-      "Specification": [
-        "Battery Life: 24 hours with charging case",
-        "Water Resistance: IPX4",
-        "Bluetooth Version: 5.2",
-        "Charging Type: USB-C",
-        "Microphones: Beamforming microphones",
-        "Additional Features: Active Noise Cancellation, Adaptive Sound Control"
-      ],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "product_id": 33445,
-      "product_title": "Pixel 6",
-      "product_image": "https://example.com/images/pixel_6.jpg",
-      "category": "Smartphone",
-      "price": 599.99,
-      "description": "Google Pixel 6 with 6.4-inch OLED display, Google Tensor processor, and an advanced dual-lens camera system.",
-      "Specification": [
-        "Display: 6.4 inches, 2400x1080 pixels",
-        "Processor: Google Tensor",
-        "RAM: 8GB",
-        "Storage: 128GB",
-        "Battery: 4614mAh",
-        "Camera: 50MP + 12MP rear, 8MP front",
-        "OS: Android 12"
-      ],
-      "availability": true,
-      "rating": 4.6
+      "rating": 4.8
     }
-  ]
-  
+  ]  
