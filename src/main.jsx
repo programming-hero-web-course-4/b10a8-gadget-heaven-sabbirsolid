@@ -1,16 +1,12 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import Root from './components/Root/Root';
-import ErrorPage from './components/ErrorPage/ErrorPage';
-import Home from './components/Home/Home';
-import ProductDetails from './components/ProductDetails/ProductDetails';
-import Dashboard from './components/Dashboard/Dashboard';
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Root from "./components/Root/Root";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
+import Home from "./components/Home/Home";
+import ProductDetails from "./components/ProductDetails/ProductDetails";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 const router = createBrowserRouter([
   {
@@ -19,25 +15,24 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
-        path:'/',
-        element: <Home></Home>
+        path: "/",
+        element: <Home></Home>,
       },
       {
-        path: 'details/:product_id',
-        element: <ProductDetails></ProductDetails>,
-        loader: () => fetch('./gadgets.json')
-      },
-      {
-        path: '/dashboard',
+        path: "/dashboard",
         element: <Dashboard></Dashboard>
+      },
+      {
+        path: "details/:product_id",
+        element: <ProductDetails></ProductDetails>,
+        loader: () => fetch("./gadgets.json"),
       }
-    ]
+    ],
   },
 ]);
 
-
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
-)
+  </StrictMode>
+);

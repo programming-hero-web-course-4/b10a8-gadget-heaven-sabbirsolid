@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
+import { CartHandle, WishListHandle } from "../Root/Root";
 
 const Navbar = () => {
+    const [cart, setCart]  = useContext(CartHandle)
+    const [wishList, setWishList] = useContext(WishListHandle)
     const links = (
         <>
           <li>
@@ -49,8 +52,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
-        <a className="btn">Button</a>
+        <a className="btn">Cart {cart.length} </a>
+        <a className="btn">WishList {wishList.length}</a>
       </div>
     </div>
   );

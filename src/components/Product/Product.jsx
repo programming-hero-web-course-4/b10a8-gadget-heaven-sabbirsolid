@@ -6,6 +6,7 @@ const Product = ({ product }) => {
   const {product_id, product_image, product_title, price} = product;
 
   return (
+    // Product cart
     <div className="card bg-base-100 w-96 shadow-xl">
       <figure className="px-10 pt-10">
         <img
@@ -19,6 +20,7 @@ const Product = ({ product }) => {
         <p>Price: ${price}</p>
         <div className="card-actions">
           <Link to={`/details/${product_id}`}><button Link className="btn btn-primary">View Details</button></Link>
+      
         </div>
       </div>
     </div>
