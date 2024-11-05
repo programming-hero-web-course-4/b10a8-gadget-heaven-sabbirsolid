@@ -22,6 +22,9 @@ const Products = () => {
       (product) => product.category === "Smartphone");
     setProducts(smartphones);
     setActiveButton("smartphones");
+    // useEffect(() => {
+    //   document.title = 'Smartphone | Gadget Heaven';
+    // },[])
   };
   const handleLaptops = () => {
     const laptops = allProducts.filter(
@@ -35,24 +38,31 @@ const Products = () => {
     setProducts(Vrs);
     setActiveButton("vr");
   };
+  const handleSmartWatches = () => {
+    const Vrs = allProducts.filter(
+      (product) => product.category === "Smartwatch");
+    setProducts(Vrs);
+    setActiveButton("smartwatches");
+  };
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center space-y-5">
       <div className="text-center">
         <h1 className="text-4xl font-bold">Explore Lovely Gadgets</h1>
       </div>
-      <div className="flex w-11/12 mx-auto gap-9">
-
-        <div className="flex flex-col gap-3">
+      <div className="lg:flex w-11/12 mx-auto space-y-5">
+        <div className="lg:flex flex-col gap-3 ">
           <button
-            onClick={handleAllProducts} className={`btn ${activeButton === "all" ? "bg-red-700" : ""}`}>All Products</button>
-          <button onClick={handleSmartphones} className={`btn ${activeButton === "smartphones" ? "bg-red-700" : ""}`}
+            onClick={handleAllProducts} className={`font-bold py-3 px-5 rounded-3xl ${activeButton === "all" ? "bg-[#9538E2] text-white" : "bg-gray-200"}`}>All Products</button>
+          <button onClick={handleSmartphones} className={`font-bold py-3 px-5 rounded-3xl ${activeButton === "smartphones" ? "bg-[#9538E2] text-white" : "bg-gray-200"}`}
           >Smartphones</button>
-          <button onClick={handleLaptops} className={`btn ${activeButton === "laptops" ? "bg-red-700" : ""}`}> Laptops
+          <button onClick={handleLaptops} className={`font-bold py-3 px-5 rounded-3xl ${activeButton === "laptops" ? "bg-[#9538E2] text-white" : "bg-gray-200"}`}> Laptops
           </button>
-          <button onClick={handleVR} className={`btn ${activeButton === "vr" ? "bg-red-700" : ""}`}>VRs</button>
+          <button onClick={handleSmartWatches} className={`font-bold py-3 px-5 rounded-3xl ${activeButton === "smartwatches" ? "bg-[#9538E2] text-white" : "bg-gray-200"}`}> Smartwatch
+          </button>
+          <button onClick={handleVR} className={`font-bold py-3 px-5 rounded-3xl ${activeButton === "vr" ? "bg-[#9538E2] text-white" : "bg-gray-200"}`}>VRs</button>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-11/12 mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-11/12 mx-auto gap-5">
           {products.map((product) => (
             <Product key={product.product_id} product={product}></Product>
           ))}

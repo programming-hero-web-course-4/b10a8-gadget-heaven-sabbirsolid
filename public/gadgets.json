@@ -1,8 +1,9 @@
+
 [
   {
     "product_id": 101,
     "product_title": "iPhone 13 Pro",
-    "product_image": "https://example.com/images/iphone_13_pro.jpg",
+    "product_image": "https://i.ibb.co.com/vscvjcb/13pro.jpg",
     "category": "Smartphone",
     "price": 999.99,
     "description": "Apple iPhone 13 Pro with Super Retina XDR display, A15 Bionic chip, and triple-lens camera system.",
@@ -21,7 +22,7 @@
   {
     "product_id": 102,
     "product_title": "Galaxy S21",
-    "product_image": "https://example.com/images/galaxy_s21.jpg",
+    "product_image": "https://i.ibb.co.com/M23zwQ0/samsung-galaxy-s21.jpg",
     "category": "Smartphone",
     "price": 799.99,
     "description": "Samsung Galaxy S21 with a 6.2-inch display, triple-lens camera, and a powerful Exynos processor.",
@@ -40,7 +41,7 @@
   {
     "product_id": 103,
     "product_title": "Google Pixel 6",
-    "product_image": "https://example.com/images/pixel_6.jpg",
+    "product_image": "https://i.ibb.co.com/B3hqbDY/pixel6.jpg",
     "category": "Smartphone",
     "price": 599.99,
     "description": "Google Pixel 6 with 6.4-inch OLED display, Google Tensor processor, and dual-lens camera system.",
@@ -53,13 +54,13 @@
       "Camera: 50MP + 12MP rear, 8MP front",
       "OS: Android 12"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.6
   },
   {
     "product_id": 104,
     "product_title": "OnePlus 9",
-    "product_image": "https://example.com/images/oneplus_9.jpg",
+    "product_image": "https://i.ibb.co.com/Jv4tF1s/oneplus9.jpg",
     "category": "Smartphone",
     "price": 729.99,
     "description": "OnePlus 9 with a 6.55-inch AMOLED display, Snapdragon 888 processor, and Hasselblad triple-lens camera.",
@@ -78,7 +79,7 @@
   {
     "product_id": 105,
     "product_title": "Xiaomi Mi 11",
-    "product_image": "https://example.com/images/mi_11.jpg",
+    "product_image": "https://i.ibb.co.com/LS1QJKF/mi11.jpg",
     "category": "Smartphone",
     "price": 749.99,
     "description": "Xiaomi Mi 11 with a 6.81-inch AMOLED display, Snapdragon 888 processor, and advanced camera features.",
@@ -96,14 +97,14 @@
   },
   {
     "product_id": 106,
-    "product_title": "Samsung Galaxy A52",
-    "product_image": "https://example.com/images/galaxy_a52.jpg",
+    "product_title": "Samsung Galaxy A52s 5G",
+    "product_image": "https://i.ibb.co.com/DWQg6qT/a52s.jpg",
     "category": "Smartphone",
     "price": 399.99,
-    "description": "Samsung Galaxy A52 with a 6.5-inch Super AMOLED display, Snapdragon 720G, and quad-camera setup.",
+    "description": "Samsung Galaxy A52 with a 6.5-inch Super AMOLED display, Snapdragon 778G, and quad-camera setup.",
     "Specification": [
       "Display: 6.5 inches, 2400x1080 pixels",
-      "Processor: Snapdragon 720G",
+      "Processor: Snapdragon 778G",
       "RAM: 6GB",
       "Storage: 128GB",
       "Battery: 4500mAh",
@@ -116,7 +117,7 @@
   {
     "product_id": 107,
     "product_title": "Dell XPS 13",
-    "product_image": "https://example.com/images/xps_13.jpg",
+    "product_image": "https://i.ibb.co.com/fDY5DYL/Dell.jpg",
     "category": "Laptop",
     "price": 1299.99,
     "description": "Dell XPS 13 with a stunning 13.4-inch InfinityEdge display and Intel's latest 11th-gen processor.",
@@ -135,7 +136,7 @@
   {
     "product_id": 108,
     "product_title": "MacBook Air M1",
-    "product_image": "https://example.com/images/macbook_air_m1.jpg",
+    "product_image": "https://i.ibb.co.com/gtsN07h/airm1.jpg",
     "category": "Laptop",
     "price": 999.99,
     "description": "Apple MacBook Air with M1 chip, 13-inch Retina display, and exceptional battery life.",
@@ -153,39 +154,96 @@
   },
   {
     "product_id": 109,
-    "product_title": "Oculus Quest 2",
-    "product_image": "https://example.com/images/oculus_quest_2.jpg",
-    "category": "VR Headset",
-    "price": 299.99,
-    "description": "Oculus Quest 2 VR headset with high-resolution display, 6GB RAM, and wireless gameplay.",
+    "product_title": "Apple Watch Series 7",
+    "product_image": "https://i.ibb.co.com/XYdnLR9/series7.jpg",
+    "category": "Smartwatch",
+    "price": 399.99,
+    "description": "Apple Watch Series 7 with larger display, fitness tracking, and cellular connectivity options.",
     "Specification": [
-      "Display: 1832x1920 pixels per eye",
-      "Processor: Qualcomm Snapdragon XR2",
-      "RAM: 6GB",
-      "Storage: 128GB",
-      "Battery: 2-3 hours",
-      "Connectivity: Wi-Fi, Bluetooth",
-      "Additional Features: Wireless gameplay, Oculus Store access"
+      "Display: Always-On Retina, 396x484 pixels",
+      "Processor: Apple S7",
+      "RAM: 1GB",
+      "Storage: 32GB",
+      "Battery: Up to 18 hours",
+      "Connectivity: Wi-Fi, Bluetooth, optional LTE",
+      "Features: ECG, Blood Oxygen, Fitness Tracking"
     ],
     "availability": true,
     "rating": 4.6
   },
   {
     "product_id": 110,
-    "product_title": "HTC Vive Pro 2",
-    "product_image": "https://example.com/images/vive_pro_2.jpg",
-    "category": "VR Headset",
-    "price": 749.99,
-    "description": "HTC Vive Pro 2 VR headset with 5K resolution, 120-degree field of view, and immersive audio.",
+    "product_title": "Samsung Galaxy Watch 4",
+    "product_image": "https://i.ibb.co.com/HKmbZxx/watch4.jpg",
+    "category": "Smartwatch",
+    "price": 249.99,
+    "description": "Samsung Galaxy Watch 4 with Wear OS, health monitoring features, and a durable design.",
     "Specification": [
-      "Display: 2448x2448 pixels per eye",
-      "Field of View: 120 degrees",
-      "Refresh Rate: 120Hz",
-      "Connectivity: HDMI, USB",
-      "Audio: Hi-Res certified headphones",
-      "Additional Features: SteamVR compatibility, adjustable head strap"
+      "Display: 1.4 inches, 450x450 pixels",
+      "Processor: Exynos W920",
+      "RAM: 1.5GB",
+      "Storage: 16GB",
+      "Battery: 361mAh, up to 40 hours",
+      "OS: Wear OS 3",
+      "Features: Heart Rate Monitoring, Sleep Tracking, Fitness Tracking"
     ],
     "availability": true,
     "rating": 4.8
+  },
+  {
+    "product_id": 111,
+    "product_title": "HP Spectre x360",
+    "product_image": "https://i.ibb.co.com/6NLTYQg/Hp.webp",
+    "category": "Laptop",
+    "price": 1399.99,
+    "description": "HP Spectre x360 with a convertible design, 13.3-inch 4K display, and Intel's latest 11th-gen processor.",
+    "Specification": [
+      "Display: 13.3 inches, 3840x2160 pixels",
+      "Processor: Intel Core i7-1165G7",
+      "RAM: 16GB",
+      "Storage: 1TB SSD",
+      "Battery: 60Wh",
+      "Graphics: Intel Iris Xe Graphics",
+      "OS: Windows 10 Home"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 112,
+    "product_title": "Oculus Quest 2",
+    "product_image": "https://i.ibb.co.com/wg50JBq/oculus.webp",
+    "category": "VR Headset",
+    "price": 299.99,
+    "description": "Oculus Quest 2, an all-in-one VR headset with a resolution of 1832x1920 per eye and access to a wide range of VR experiences.",
+    "Specification": [
+      "Resolution: 1832x1920 per eye",
+      "Processor: Qualcomm Snapdragon XR2",
+      "RAM: 6GB",
+      "Storage: Options for 64GB, 256GB",
+      "Battery: 2-3 hours",
+      "Features: Standalone, wireless",
+      "OS: Oculus OS"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 113,
+    "product_title": "HTC Vive Pro 2",
+    "product_image": "https://i.ibb.co.com/7ycpTSb/htc.png",
+    "category": "VR Headset",
+    "price": 799.99,
+    "description": "HTC Vive Pro 2 offers high-resolution displays, enhanced audio, and a wide field of view for a premium VR experience.",
+    "Specification": [
+      "Resolution: 2448x2448 per eye",
+      "Refresh Rate: 120Hz",
+      "Field of View: 120 degrees",
+      "Audio: Integrated headphones with spatial audio",
+      "Tracking: SteamVR tracking",
+      "OS: Windows"
+    ],
+    "availability": true,
+    "rating": 4.6
   }
 ]

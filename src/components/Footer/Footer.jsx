@@ -2,35 +2,44 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-neutral">
-        <div className="text-center">
-            <h1 className="text-4xl font-bold">Gadgets Heaven</h1>
-            <p >Leading tech product suppliers</p>
+    <div className="flex flex-col justify-center space-y-5 my-10">
+      {/* company name  */}
+      <div className="text-center">
+        <h1 className="text-3xl font-bold">Gadgets Heaven</h1>
+        <p>
+          Leading cutting edge tech products distributor and services provider
+        </p>
+      </div>
+      <div className="border-t-2 w-11/12 mx-auto"></div>
+      {/* main footer */}
+      <div className="flex text-center gap-10 lg:gap-52 mx-auto px-5 py-10">
+        <div className="flex flex-col">
+          <h2 className="font-bold text-xl text-gray-800">Services</h2>
+          <div className="text-gray-600  flex flex-col">
+            <a>Product Support</a>
+            <a>Order Tracking</a>
+            <a>Shipping & Delivery</a>
+            <a>Returns</a>
+          </div>
         </div>
-        <div className="border-t mx-11 bg-slate-300"></div>
-      <footer className="footer  text-neutral-content p-10">
+        <div className="flex flex-col">
+          <h2 className="font-bold text-xl text-gray-800">Company</h2>
+          <div className="text-gray-600  flex flex-col">
+            <a>About Us</a>
+            <a>Career</a>
+            <a>Contact</a>
+          </div>
+        </div>
+        <div className="flex flex-col">
+          <h2 className="font-bold text-xl text-gray-800">Legal</h2>
+          <div className="text-gray-600  flex flex-col">
+            <a>Terms of Services</a>
+            <a>Privacy Policy</a>
+            <a>Cookie Policy</a>
       
-        <nav>
-          <h6 className="footer-title">Services</h6>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
-        </nav>
-        <nav>
-          <h6 className="footer-title">Company</h6>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
-        </nav>
-        <nav>
-          <h6 className="footer-title">Legal</h6>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
-        </nav>
-      </footer>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
