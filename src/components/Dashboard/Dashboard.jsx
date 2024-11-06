@@ -123,13 +123,15 @@ const Dashboard = () => {
                 </button>
               </div>
             </div>
-            <div className="lg:w-5/6 w-11/12 space-y-3 mx-auto">
+            {/* newer version */}
+            <div className="w-11/12 mx-auto  space-y-5 p5">
               {cart.map((product, index) => (
-                <div
-                  className="flex border border-gray-200 rounded-xl lg:p-5 lg:m-5 lg:flex justify-between items-center"
+                <div className="flex justify-between border border-gray-200 rounded-xl flex-col lg:flex-row items-center">
+                  <div
+                  className=" "
                   key={`${product.product_id}-${index}`}
                 >
-                  <div className="flex items-center">
+                  <div className="flex items-center flex-col lg:flex-row text-center lg:text-left ">
                     <div className="p-3">
                       <img
                         className="w-[180px] p-2 border border-gray-200 rounded-xl"
@@ -137,16 +139,19 @@ const Dashboard = () => {
                         alt=""
                       />
                     </div>
-                    <div className="w-2/4">
+                    <div className="lg:w-2/4">
                       <h1 className="font-bold text-xl">
                         {product.product_title}
                       </h1>
                       <p>{product.description}</p>
                       <h2 className="font-bold">Price: ${product.price}</h2>
+                      
                     </div>
                   </div>
-                  <div>
-                    <button
+                  
+                  </div>
+                  <div className="text-center">
+                  <button
                       onClick={() => deleteCartItem(product.product_id, index)}
                       className="btn bg-red-400 mx-2 my-2"
                     >
@@ -156,6 +161,7 @@ const Dashboard = () => {
                 </div>
               ))}
             </div>
+            {/* older version end */}
           </div>
         )}
         {/* Wishlist sections */}
@@ -171,7 +177,7 @@ const Dashboard = () => {
               </button>
             </div>
             {/* wishlist */}
-            <div className="w-11/12 mx-auto  space-y-5 p5">
+            <div className="w-11/12 mx-auto  space-y-5">
               {wishList.map((product, index) => (
                 <div className="flex justify-between border border-gray-200 rounded-xl flex-col lg:flex-row items-center">
                   <div
@@ -186,7 +192,7 @@ const Dashboard = () => {
                         alt=""
                       />
                     </div>
-                    <div className="w-2/4">
+                    <div className="lg:w-2/4">
                       <h1 className="font-bold text-xl">
                         {product.product_title}
                       </h1>

@@ -27,7 +27,7 @@ const Offer = ({ product }) => {
         <h1 className="font-bold text-2xl">Discounts: {discounts}</h1>
 
         {/* cart and details button */}
-        <div className="card-actions flex items-center">
+        <div className="card-actions justify-center flex items-center">
           <Link to={`/details/${product_id}`}>
             <button className="text-[#9538E2] py-2 px-5 hover:bg-slate-200 rounded-3xl border font-bold border-purple-500">
               View Details

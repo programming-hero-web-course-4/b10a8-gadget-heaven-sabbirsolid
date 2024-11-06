@@ -17,7 +17,6 @@ const Offers = () => {
   };
   const info = useLoaderData();
   const dataArray = Array.isArray(info) ? info : [];
-  console.log(dataArray);
   return (
     <div>
       <div className="text-center bg-[#9538E2] py-20">
