@@ -1,18 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import PropTypes from "prop-types"
 const Product = ({ product }) => {
-  // console.log(product);
   const {product_id, product_image, product_title, price} = product;
 
   return (
-    // Product card
-    <div className="card bg-base-100 w-96 shadow-xl">
-      <figure className="px-10 pt-10">
-        <img
+    // individual Product card
+    <div className="card bg-base-100 w-11/12 lg:w-10/12 md:w-full mx-auto shadow-xl m-5">
+      <figure className="px-10 pt-10 border border-gray-200 rounded-2xl p-2 m-2">
+        <img  className="rounded-xl h-[200px] object-cover"
           src={product_image}
           alt={product_title}
-          className="rounded-xl"
+          
         />
       </figure>
       <div className="card-body items-center text-center">
@@ -26,5 +25,7 @@ const Product = ({ product }) => {
     </div>
   );
 };
-
+Product.propTypes = {
+  product: PropTypes.object
+}
 export default Product;

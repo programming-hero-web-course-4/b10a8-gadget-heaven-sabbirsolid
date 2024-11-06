@@ -1,4 +1,3 @@
-import React from "react";
 import bannerImg from "../../assets/banner.jpg";
 import { Link } from "react-router-dom";
 const Hero = () => {
@@ -13,14 +12,20 @@ const Hero = () => {
           products
         </p>
         <Link to={"/dashboard"}>
-          <button className=" text-[#9538E2] font-bold py-3 px-5 rounded-3xl bg-white my-2">Shop Now</button>
+          <button className=" text-[#9538E2] font-bold hover:bg-slate-200 py-3 px-5 rounded-3xl bg-white my-2">
+            Shop Now
+          </button>
         </Link>
       </div>
 
       {/* banner image section */}
       <div className="lg:w-8/12 w-11/12 mx-auto border p-4 rounded-2xl relative bottom-40 lg:bottom-48 bg-white bg-opacity-20">
-              <div className=" h-[600px] bg-white bg-opacity-100 rounded-2xl">
-                  <img className="rounded-2xl w-full h-full object-cover" src={bannerImg} alt="" />
+        <div className="bg-white bg-opacity-100 rounded-2xl">
+          <img
+            className="rounded-2xl w-full h-full lg:h-[700px] object-cover"
+            src={bannerImg}
+            alt=""
+          />
         </div>
       </div>
     </div>

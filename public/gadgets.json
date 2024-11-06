@@ -17,7 +17,8 @@
       "OS: iOS 15"
     ],
     "availability": true,
-    "rating": 4.8
+    "rating": 4.8,
+    "discounts": "15%"
   },
   {
     "product_id": 102,
@@ -36,7 +37,8 @@
       "OS: Android 11"
     ],
     "availability": true,
-    "rating": 4.5
+    "rating": 4.5,
+    "discounts": "N/A"
   },
   {
     "product_id": 103,
@@ -55,7 +57,8 @@
       "OS: Android 12"
     ],
     "availability": false,
-    "rating": 4.6
+    "rating": 4.6,
+    "discounts": "25%"
   },
   {
     "product_id": 104,
@@ -74,7 +77,8 @@
       "OS: Android 11"
     ],
     "availability": true,
-    "rating": 4.4
+    "rating": 4.4,
+    "discounts": "40%"
   },
   {
     "product_id": 105,
@@ -93,15 +97,16 @@
       "OS: Android 11"
     ],
     "availability": true,
-    "rating": 4.5
+    "rating": 4.5,
+    "discounts": "40%"
   },
   {
     "product_id": 106,
     "product_title": "Samsung Galaxy A52s 5G",
-    "product_image": "https://i.ibb.co.com/DWQg6qT/a52s.jpg",
+    "product_image": "https://i.ibb.co.com/rk0yLzb/a52sback.jpg",
     "category": "Smartphone",
-    "price": 399.99,
-    "description": "Samsung Galaxy A52 with a 6.5-inch Super AMOLED display, Snapdragon 778G, and quad-camera setup.",
+    "price": 399.999,
+    "description": "Samsung Galaxy A52s with a 6.5-inch Super AMOLED display, Snapdragon 778G, and quad-camera setup.",
     "Specification": [
       "Display: 6.5 inches, 2400x1080 pixels",
       "Processor: Snapdragon 778G",
@@ -112,7 +117,8 @@
       "OS: Android 11"
     ],
     "availability": true,
-    "rating": 4.3
+    "rating": 4.3,
+    "discounts": "15%"
   },
   {
     "product_id": 107,
@@ -131,7 +137,8 @@
       "OS: Windows 10 Pro"
     ],
     "availability": true,
-    "rating": 4.7
+    "rating": 4.7,
+    "discounts": "40%"
   },
   {
     "product_id": 108,
@@ -150,7 +157,8 @@
       "OS: macOS"
     ],
     "availability": true,
-    "rating": 4.9
+    "rating": 4.9,
+    "discounts": "30%"
   },
   {
     "product_id": 109,
@@ -169,7 +177,8 @@
       "Features: ECG, Blood Oxygen, Fitness Tracking"
     ],
     "availability": true,
-    "rating": 4.6
+    "rating": 4.6,
+    "discounts": "N/A"
   },
   {
     "product_id": 110,
@@ -188,7 +197,8 @@
       "Features: Heart Rate Monitoring, Sleep Tracking, Fitness Tracking"
     ],
     "availability": true,
-    "rating": 4.8
+    "rating": 4.8,
+    "discounts": "25%"
   },
   {
     "product_id": 111,
@@ -207,7 +217,8 @@
       "OS: Windows 10 Home"
     ],
     "availability": true,
-    "rating": 4.8
+    "rating": 4.8,
+    "discounts": "20%"
   },
   {
     "product_id": 112,
@@ -226,7 +237,9 @@
       "OS: Oculus OS"
     ],
     "availability": true,
-    "rating": 4.7
+    "rating": 4.7,
+    "discounts": "N/A"
+    
   },
   {
     "product_id": 113,
@@ -244,6 +257,7 @@
       "OS: Windows"
     ],
     "availability": true,
-    "rating": 4.6
+    "rating": 4.6,
+    "discounts": "10%"
   }
 ]

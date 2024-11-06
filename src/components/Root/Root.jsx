@@ -2,7 +2,7 @@ import React, { createContext, useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import { Outlet } from "react-router-dom";
-
+// declaring context
 export const CartHandle = createContext(null);
 export const WishListHandle = createContext(null);
 const Root = () => {
