@@ -7,7 +7,7 @@ const Product = ({ product }) => {
   return (
     // individual Product card
     <div className="card bg-base-100 w-11/12 lg:w-10/12 md:w-full mx-auto shadow-xl m-5">
-      <figure className="px-10 pt-10 border border-gray-200 rounded-2xl p-2 m-2">
+      <figure className="border border-gray-200 rounded-2xl p-2 m-2">
         <img  className="rounded-xl h-[200px] object-cover"
           src={product_image}
           alt={product_title}

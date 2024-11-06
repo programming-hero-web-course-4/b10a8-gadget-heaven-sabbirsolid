@@ -126,13 +126,13 @@ const Dashboard = () => {
             <div className="lg:w-5/6 w-11/12 space-y-3 mx-auto">
               {cart.map((product, index) => (
                 <div
-                  className="flex border-2 rounded-xl lg:p-5 lg:m-5 lg:flex justify-between items-center"
+                  className="flex border border-gray-200 rounded-xl lg:p-5 lg:m-5 lg:flex justify-between items-center"
                   key={`${product.product_id}-${index}`}
                 >
                   <div className="flex items-center">
                     <div className="p-3">
                       <img
-                        className="w-[180px] p-2 border border-gray-400 rounded-xl"
+                        className="w-[180px] p-2 border border-gray-200 rounded-xl"
                         src={product.product_image}
                         alt=""
                       />
@@ -170,16 +170,18 @@ const Dashboard = () => {
                 Sort by Price
               </button>
             </div>
-            <div className="lg:w-5/6 w-11/12 mx-auto">
+            {/* wishlist */}
+            <div className="w-11/12 mx-auto  space-y-5 p5">
               {wishList.map((product, index) => (
-                <div
-                  className="flex border-2 rounded-xl lg:p-5 lg:m-5 lg:flex justify-between items-center"
+                <div className="flex justify-between border border-gray-200 rounded-xl flex-col lg:flex-row items-center">
+                  <div
+                  className=" "
                   key={`${product.product_id}-${index}`}
                 >
-                  <div className="flex items-center">
+                  <div className="flex items-center flex-col lg:flex-row text-center lg:text-left ">
                     <div className="p-3">
                       <img
-                        className="w-[180px] p-2 border border-gray-400 rounded-xl"
+                        className="w-[180px] p-2 border border-gray-200 rounded-xl"
                         src={product.product_image}
                         alt=""
                       />
@@ -201,7 +203,9 @@ const Dashboard = () => {
                       </button>
                     </div>
                   </div>
-                  <div>
+                  
+                  </div>
+                  <div className="text-center">
                     <button
                       onClick={() =>
                         deleteWishListItem(product.product_id, index)
@@ -243,7 +247,7 @@ const Dashboard = () => {
                   setTotal(0);
                   goToHome();
                 }}
-                className="btn"
+                className="btn-wide text-green-600 font-bold border border-green-600 hover:bg-slate-300 py-2 px-5 rounded-3xl my-2"
               >
                 Close
               </button>

@@ -1,11 +1,10 @@
-
 [
   {
     "product_id": 101,
     "product_title": "iPhone 13 Pro",
     "product_image": "https://i.ibb.co.com/vscvjcb/13pro.jpg",
     "category": "Smartphone",
-    "price": 999.99,
+    "price": 999,
     "description": "Apple iPhone 13 Pro with Super Retina XDR display, A15 Bionic chip, and triple-lens camera system.",
     "Specification": [
       "Display: 6.1 inches, 2532x1170 pixels",
@@ -25,7 +24,7 @@
     "product_title": "Galaxy S21",
     "product_image": "https://i.ibb.co.com/M23zwQ0/samsung-galaxy-s21.jpg",
     "category": "Smartphone",
-    "price": 799.99,
+    "price": 799,
     "description": "Samsung Galaxy S21 with a 6.2-inch display, triple-lens camera, and a powerful Exynos processor.",
     "Specification": [
       "Display: 6.2 inches, 2400x1080 pixels",
@@ -45,7 +44,7 @@
     "product_title": "Google Pixel 6",
     "product_image": "https://i.ibb.co.com/B3hqbDY/pixel6.jpg",
     "category": "Smartphone",
-    "price": 599.99,
+    "price": 599,
     "description": "Google Pixel 6 with 6.4-inch OLED display, Google Tensor processor, and dual-lens camera system.",
     "Specification": [
       "Display: 6.4 inches, 2400x1080 pixels",
@@ -65,7 +64,7 @@
     "product_title": "OnePlus 9",
     "product_image": "https://i.ibb.co.com/Jv4tF1s/oneplus9.jpg",
     "category": "Smartphone",
-    "price": 729.99,
+    "price": 729,
     "description": "OnePlus 9 with a 6.55-inch AMOLED display, Snapdragon 888 processor, and Hasselblad triple-lens camera.",
     "Specification": [
       "Display: 6.55 inches, 2400x1080 pixels",
@@ -85,7 +84,7 @@
     "product_title": "Xiaomi Mi 11",
     "product_image": "https://i.ibb.co.com/LS1QJKF/mi11.jpg",
     "category": "Smartphone",
-    "price": 749.99,
+    "price": 749,
     "description": "Xiaomi Mi 11 with a 6.81-inch AMOLED display, Snapdragon 888 processor, and advanced camera features.",
     "Specification": [
       "Display: 6.81 inches, 3200x1440 pixels",
@@ -105,7 +104,7 @@
     "product_title": "Samsung Galaxy A52s 5G",
     "product_image": "https://i.ibb.co.com/rk0yLzb/a52sback.jpg",
     "category": "Smartphone",
-    "price": 399.999,
+    "price": 399,
     "description": "Samsung Galaxy A52s with a 6.5-inch Super AMOLED display, Snapdragon 778G, and quad-camera setup.",
     "Specification": [
       "Display: 6.5 inches, 2400x1080 pixels",
@@ -125,7 +124,7 @@
     "product_title": "Dell XPS 13",
     "product_image": "https://i.ibb.co.com/fDY5DYL/Dell.jpg",
     "category": "Laptop",
-    "price": 1299.99,
+    "price": 1299,
     "description": "Dell XPS 13 with a stunning 13.4-inch InfinityEdge display and Intel's latest 11th-gen processor.",
     "Specification": [
       "Display: 13.4 inches, 1920x1200 pixels",
@@ -145,7 +144,7 @@
     "product_title": "MacBook Air M1",
     "product_image": "https://i.ibb.co.com/gtsN07h/airm1.jpg",
     "category": "Laptop",
-    "price": 999.99,
+    "price": 999,
     "description": "Apple MacBook Air with M1 chip, 13-inch Retina display, and exceptional battery life.",
     "Specification": [
       "Display: 13.3 inches, 2560x1600 pixels",
@@ -165,7 +164,7 @@
     "product_title": "Apple Watch Series 7",
     "product_image": "https://i.ibb.co.com/XYdnLR9/series7.jpg",
     "category": "Smartwatch",
-    "price": 399.99,
+    "price": 399,
     "description": "Apple Watch Series 7 with larger display, fitness tracking, and cellular connectivity options.",
     "Specification": [
       "Display: Always-On Retina, 396x484 pixels",
@@ -185,7 +184,7 @@
     "product_title": "Samsung Galaxy Watch 4",
     "product_image": "https://i.ibb.co.com/HKmbZxx/watch4.jpg",
     "category": "Smartwatch",
-    "price": 249.99,
+    "price": 249,
     "description": "Samsung Galaxy Watch 4 with Wear OS, health monitoring features, and a durable design.",
     "Specification": [
       "Display: 1.4 inches, 450x450 pixels",
@@ -205,7 +204,7 @@
     "product_title": "HP Spectre x360",
     "product_image": "https://i.ibb.co.com/6NLTYQg/Hp.webp",
     "category": "Laptop",
-    "price": 1399.99,
+    "price": 1399,
     "description": "HP Spectre x360 with a convertible design, 13.3-inch 4K display, and Intel's latest 11th-gen processor.",
     "Specification": [
       "Display: 13.3 inches, 3840x2160 pixels",
@@ -225,7 +224,7 @@
     "product_title": "Oculus Quest 2",
     "product_image": "https://i.ibb.co.com/wg50JBq/oculus.webp",
     "category": "VR Headset",
-    "price": 299.99,
+    "price": 299,
     "description": "Oculus Quest 2, an all-in-one VR headset with a resolution of 1832x1920 per eye and access to a wide range of VR experiences.",
     "Specification": [
       "Resolution: 1832x1920 per eye",
@@ -239,14 +238,13 @@
     "availability": true,
     "rating": 4.7,
     "discounts": "N/A"
-    
   },
   {
     "product_id": 113,
     "product_title": "HTC Vive Pro 2",
     "product_image": "https://i.ibb.co.com/7ycpTSb/htc.png",
     "category": "VR Headset",
-    "price": 799.99,
+    "price": 799,
     "description": "HTC Vive Pro 2 offers high-resolution displays, enhanced audio, and a wide field of view for a premium VR experience.",
     "Specification": [
       "Resolution: 2448x2448 per eye",
